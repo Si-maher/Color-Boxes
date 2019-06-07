@@ -1,6 +1,9 @@
 import React, { Component } from "react"
 import "./Box.css"
 class Box extends Component {
+    static defaultProps = {
+        allColors: ['purple', 'magenta', 'lilac', 'pink']
+    }
     constructor(props) {
 
         super(props)
